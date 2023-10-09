@@ -154,10 +154,14 @@
         </Link>
     </ItemDefinitionGroup>
     <ItemGroup>
+        <ClCompile Include="BitmapLoader.cpp" />
+        <ClCompile Include="KeyboardInput.cpp" />
         <ClCompile Include="main.cpp" />
         <ClCompile Include="Sprite.cpp" />
     </ItemGroup>
     <ItemGroup>
+      <ClInclude Include="BitmapLoader.h" />
+      <ClInclude Include="KeyboardInput.h" />
       <ClInclude Include="Sprite.h" />
     </ItemGroup>
     <ItemGroup>
